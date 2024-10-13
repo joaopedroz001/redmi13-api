@@ -5,7 +5,7 @@ import json
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
-driver.get('https://www.google.com/search?q=redmi+note+13+pro+5g&rlz=1C1GCEA_enBR1087BR1087&oq=red&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDwyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEEUYPDIGCAcQRRhB0gEHNjkzajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8')
+driver.get('https://www.google.com/search?q=redmi+note+13+pro+5g&gl=BR')
 
 def getData():
 	# GET DATA FROM GOOGLE 
